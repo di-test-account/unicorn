@@ -27,7 +27,8 @@ CREATE OR REPLACE TABLE test_from_github (
 INSERT INTO test_from_github (id, name) 
 VALUES 
     (1, 'Test from GitHub'),
-    (2, 'Git integration works!');
+    (2, 'Git integration works!'), 
+    (3, 'TESTING');
 
 -- Test 7: Query the test table
 SELECT * FROM test_from_github;
